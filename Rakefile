@@ -1,14 +1,2 @@
-begin
-  require 'jeweler'
-  Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "donut"
-    gemspec.summary = "its tasty shapes"
-    gemspec.description = "Donuts are magically delicious shape files"
-    gemspec.email = "mob@mobhack.it"
-    gemspec.homepage = "http://github.com/opengotham/donut"
-    gemspec.authors = ["Mob"]
-    gemspec.extensions = ["ext/shapelib/extconf.rb"]
-  end
-rescue LoadError
-  puts "Jeweler not available. Install it with: gem install jeweler"
-end
+load "tasks/jeweler.rake"
+load "tasks/c_extensions.rake"
