@@ -1,6 +1,6 @@
 
 
-#Rake::ExtensionTask.new('shapelib', $gemspec)
+Rake::ExtensionTask.new('shapelib', $gemspec)
 
 # Workaround for rake-compiler, which YAML-dump-loads the
 # gemspec, which leads to errors since Procs can't be loaded

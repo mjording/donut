@@ -6,5 +6,7 @@ jeweler_tasks = Jeweler::Tasks.new do |gem|
   gem.email = "mob@mobhack.it"
   gem.homepage = "http://github.com/opengotham/donut"
   gem.authors = ["Mob"]
+  gem.executables  = ['bundle']
+  
   gem.files.include('lib/donut.*')
 end
