@@ -1,0 +1,3 @@
+Donut is a wrapper around the shapelib maptools C library with some mob suggested enhancements and better install / gem support. 
+
+You will need to have the C library installed in order to use this. 
