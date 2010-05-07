@@ -6,7 +6,7 @@ dir_config('ext/shapelib')
 find_library("shp","SHPGetInfo","/opt/local/lib","/usr/local/lib")
 find_header("shapefil.h", "/opt/local/include","/usr/local/lib")
 
-create_makefile('shapelib/shapelib')
+create_makefile('shapelib')
 
 
 
